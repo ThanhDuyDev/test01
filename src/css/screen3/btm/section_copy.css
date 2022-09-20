@@ -1,0 +1,63 @@
+
+.section_copy {
+  margin-top: 20px;
+  display: flex;
+  padding: 0 20px;
+  height: 8vh;
+  align-items: center;
+}
+
+.section_copy_text p {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #04004d;
+}
+
+.copy_icon_wrapper {
+  border: 1px solid #004dff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-left: 12px;
+}
+
+.dialog_copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog_copy_icon {
+background-color: #04B800;
+max-height: fit-content;
+max-width: fit-content;
+border-radius: 100%;
+padding: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 24px;
+}
+
+.dialog_copy_text {
+  font-family: 'Clear Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Color/Neutral/1 */
+
+color: #04004D;
+}

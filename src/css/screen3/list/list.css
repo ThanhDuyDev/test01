@@ -1,0 +1,13 @@
+.word_list {
+  display: flex;
+
+}
+
+.word_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 56vh;
+  padding: 0 20px;
+}

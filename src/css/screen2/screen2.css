@@ -1,0 +1,46 @@
+.screen2 {
+  position: relative;
+  padding: 20px 20px 20px;
+
+}
+
+
+
+.navheader_screen2 {
+  margin-top: 24px;
+}
+
+
+
+
+.bottom_screen2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.input_search {
+  width: 80vw;
+  position: absolute;
+  bottom: 20;
+  height: 48px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #ffffff;
+  padding: 0 16px;
+  border-radius: 6px;
+}
+
+
+
+.search_text {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #d3d7db;
+  margin-left: 16px;
+}

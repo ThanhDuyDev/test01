@@ -1,0 +1,63 @@
+.word_list2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.word_list2_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E5E5E5;
+  padding: 12px;
+}
+
+.word_list2_row:not(:first-child) {
+  margin-top: 20px;
+}
+
+.row_num {
+  flex: 1;
+  display: flex;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.row_num p{
+  height: 3.5vh;
+  width: 7vw;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #004DFF;
+  color: #004DFF ;
+}
+
+
+.row_list {
+  flex: 4.5;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+
+.one_word {
+  width: 20vw;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single_word p {
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #04004D;
+}

@@ -1,0 +1,21 @@
+.nav {
+  margin-top: 24px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_item {
+  margin: 0 16px;
+}
+
+.nav_item p {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #d3d7db;
+}

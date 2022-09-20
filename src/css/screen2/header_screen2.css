@@ -1,0 +1,34 @@
+.header_screen2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_screen2 .white_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.right_section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.right_section_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_section_item:not(:last-child){
+  margin-right: 12px;
+}
+
+.left_section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

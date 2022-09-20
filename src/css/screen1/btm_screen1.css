@@ -1,0 +1,12 @@
+
+
+.react-modal-sheet-header {
+  border-radius: 15px 15px 0 0;
+  background-color: #554CFF;
+}
+
+.react-modal-sheet-content {
+  padding: 0 20px;
+  background: linear-gradient(180deg, #554CFF 0%, rgba(85, 76, 255, 0) 100%)
+}
+

@@ -1,0 +1,55 @@
+.header_screen1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.user {
+  display: flex;
+}
+
+.user_img {
+  height: 40px;
+  width: 40px;
+  background-color: aqua;
+  margin-right: 8px;
+}
+
+.user_info_name {
+  font-family: "Clear Sans Medium";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 23px;
+  color: #04004d;
+}
+
+.user_info_email {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #667386;
+}
+
+.fn_list {
+  display: flex;
+}
+
+.fn_item {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fn_item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.fn_icon {
+  height: 14px;
+  width: 14px;
+}

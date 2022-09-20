@@ -1,0 +1,72 @@
+.dialog_agree_title {
+  display: flex;
+  justify-content: center;
+}
+
+.dialog_agree {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dialog_agree_icon {
+  background-color: #04B800;
+  max-height: fit-content;
+  max-width: fit-content;
+  border-radius: 100%;
+  padding: 14px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog_agree_text {
+
+  font-family: 'Clear Sans Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  /* Color/Neutral/1 */
+  
+  color: #04004D;
+  margin-top: 20px;
+}
+
+.dialog_agree_content_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.dialog_agree_content_text {
+  font-family: 'Clear Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+/* or 140% */
+}
+
+
+.section_btn_dialog {
+  display: flex;
+  height: 8vh;
+  justify-content: space-between;
+  margin-top: 12px;
+  width: 80vw;
+}
+
+.btn_agrre {
+  flex: 1;
+}

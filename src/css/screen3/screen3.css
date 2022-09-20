@@ -1,0 +1,51 @@
+.screen3 {
+  position: relative;
+}
+
+.header_scr3 {
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+}
+
+.header_scr3 .back_section {
+  display: flex;
+  align-items: center;
+}
+
+.header_scr3 .back_section p {
+  font-family: "Clear Sans Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #04004d;
+}
+
+.text_title p{
+  font-family: "Clear Sans Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  display: flex;
+  color: #004dff;
+}
+
+.error_section {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.error_section p {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ff0366;
+}

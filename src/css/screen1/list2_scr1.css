@@ -1,0 +1,61 @@
+.list_user {
+  margin-top: 12px;
+  padding: 0 24px;
+}
+
+.list_user .item {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_user .info {
+  display: flex;
+}
+
+.info_img {
+  height: 60px;
+  width: 60px;
+  background-color: aqua;
+  margin-right: 8px;
+  border-radius: 12px;
+
+}
+
+.info_name {
+  font-family: "Clear Sans Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  color: #04004d;
+  opacity: 0.78;
+  
+}
+
+.info_time {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #667386;
+}
+
+.money {
+  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+}
+
+#money_red {
+  color: #FF0366;
+}
+
+#money_green{
+  color: #04B800;
+}
